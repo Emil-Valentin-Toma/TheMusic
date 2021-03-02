@@ -8,7 +8,7 @@ The newspaper will be called The New Music Record-->
     <head>
       <meta charset="utf-8" />
       <title >The New Music Record</title>
-    <link rel="stylesheet" href="emil_css.CSS">
+    <link rel="stylesheet" href="assets/css/emil_css.css">
         
     </head>
 
@@ -16,53 +16,87 @@ The newspaper will be called The New Music Record-->
     <body>
         <header>
             <div>
-              <span title="Welcome to The New Music Record!"><img id="banner" src="images/brand_simple.gif" alt="the new music record"></span>
+              <span style="opacity:0.5;" title="Welcome to The New Music Record!"><img id="banner" src="assets/images/brand_simple.gif" alt="the new music record"></span>
             </div>
           
           </header>
-      <h3>This website is equally addressed to audiophiles, casual listeners, special consumers and anyone else in-between</h3>
+      <h3 class="whiteAlpha"><span class="centerText" > This website is equally addressed to audiophiles, casual listeners, special consumers and everyone in-between</span></h3>
       
-      <small><em><strong><span class="whiteOnBlack">NOTE:</span></strong><span class="anotherBorder"> This website is a proof of concept, all the links are empty and the content is mocked-up</span></em></small>
+      <small><em><strong><span class="whiteOnBlack">NOTE:</span></strong><span class="whiteOnBlackRevs"> This website is a proof of concept, some of the links are empty and the content is <a style="color:plum" href= "https://en.wikipedia.org/wiki/Web_design"> <strong> mocked-up</strong></a></span></em></small>
       <br><br>
 
-      <h3 class="sticky"><span class="leaf whiteBkg"> <a href="aboutUs.html">About Us</a> </span>&emsp;&emsp;<span class="leaf whiteBkg"><a href="#">Services</a></span>&emsp;&emsp;<span class="leaf whiteBkg"><a href="#">Contact Us</a></span></h3>
-
+      <!--SIDE MENU================================================-->
+    <div class="menu">
+      <h3 ><span class="leaf whiteBkg"> <a href="content/aboutUs.html">About Us</a> </span></h3>
+      <h3><span class="leaf whiteBkg"><a href="content/services.html">Services</a></span></h3>
+      <h3><span class="leaf whiteBkg"><a href="content/contact.html">Contact Us</a></span></h3>
+    
       <br><br>
 
       
-    	<h2><span class="blueFont borderScatter"><em>NEWS</em></span></h2>
+    	<h2><span class="blueFont borderScatter whiteBkg"><em>NEWS</em></span></h2>
 
-    <p><strong class="borderBottomLeft"> Selena W. will donate all the money from her last single. Her song "Two Horizons" stepped in TopTen BillBoard</strong> &emsp;<a href="#" >MORE...</a></p>
-    <p><strong class="borderBottomLeft"> Vespouky's violin sold for $3.7m on auction. Half of money goes to the Association of Artists with Parkinson Condition</strong> &emsp;<a href="#" >MORE...</a></p>
-    <p><strong class="borderBottomLeft">Maria Ganamera nominated as ambassador for talented children with disabilities</strong> &emsp;<a href="#" >MORE...</a></p>
+    <p class="newsBox"><strong> Selena W. will donate all the money from her last single. Her song "Two Horizons" stepped in TopTen TillBoard</strong> &emsp;<a href="content/selena.html" ></p><p><span class="leaf whiteBkg"><strong> MORE...</strong></span></a></p>
+    <hr />
+    <p class="newsBox"><strong> Vespouky's violin sold for $3.7m on auction. The money goes to the Association of Artists with Parkinson Condition</strong> &emsp;<a href="content/vespouky.html" ></p><p><span class="leaf whiteBkg"><strong> MORE...</strong></span></a></p>
+    <hr />
+    <p class="newsBox"><strong>Maria Ganamera nominated as ambassador for talented children with disabilities</strong> &emsp;<a href="content/ganamera.html" ></p><p><span class="leaf whiteBkg"><strong> MORE...</strong></span></a></p>
+    
+    </div>
+    <!--ENDOF SIDE MENU================================================-->
     <br>
     <br>
+<article> <!--THIS IS THE BLOCK WITH IMAGES AND CAPTIONS-->
+    <!--PIANO================================================-->	
+    <figure class="frontendHover imgBox captionClass"><a href="#" ><img class="frontendHover frontend_img frontDroppedCorner" src="assets/images/piano_drawing.gif" alt="A hand-drawn piano"></a> <figcaption> Choose from a range of classical that are PIANO tagged</figcaption></figure> &emsp;&emsp;
+      
+     <!--CLASSICAL================================================--> 
+      
+     <figure class="frontendHover imgBox captionClass"><a href="#" ><img class="frontendHover frontend_img droppedCorner" id="music_chart_classical" src="assets/images/music_chart_classical.gif" alt="A hand-drawn notes chart"></a> <figcaption> Classical music as we know it. Click and choose the one that fits your moment of reflection.</figcaption></figure> 
 
-    	
-    <p><a href="#" ><img class="frontend_img frontDroppedCorner" src="images/piano_drawing.gif" alt="A hand-drawn piano"></a> Choose from a range of classical that are PIANO tagged &emsp;&emsp;<a href="#" ><img class="frontend_img droppedCorner" id="music_chart_classical" src="images/music_chart_classical.gif" alt="A hand-drawn notes chart"></a> Classical music as we know it. Click and choose the one that fits your moment of reflection.</p> 
+    <!--TURNTABLE================================================-->
+    <figure class="frontendHover imgBox captionClass"><a href="#" ><img class="frontendHover frontend_img frontDroppedCorner" src="assets/images/turntable_drawing.gif" alt="A hand-drawn turntable"></a><figcaption> Choose from a range of songs  that are DISCO tagged </figcaption></figure>
+      
+    <!--POP======================================================-->
+    <figure class="frontendHover imgBox captionClass"><a href="#" ><img class="frontendHover frontend_img droppedCorner" id="music_chart_pop" src="assets/images/music_chart_pop.gif" alt="A hand-drawn notes chart"></a> <figcaption>Pop music as we like it. Click and discover the one that tops up your moment of happiness.</figcaption></figure>
 
-    <p><a href="#" ><img class="frontend_img frontDroppedCorner" src="images/turntable_drawing.gif" alt="A hand-drawn turntable"></a> Choose from a range of songs  that are DISCO tagged &emsp;&emsp; <a href="#" ><img class="frontend_img droppedCorner" id="music_chart_pop" src="images/music_chart_pop.gif" alt="A hand-drawn notes chart"></a> Pop music as we like it. Click and discover the one that tops up your moment of happiness.</p>
+    <!--ELECTRIC================================================-->
+   <figure class="frontendHover imgBox captionClass"> <a href="#" ><img class="frontend_img frontDroppedCorner" src="assets/images/electric_drawing.gif" alt="A hand-drawn GUITAR"></a> <figcaption> Choose from a range of songs that are GUITAR tagged</figcaption></figure>
+   
+    <!--METAL================================================-->
+    <figure class="frontendHover imgBox captionClass"><a href="#" ><img class="frontend_img droppedCorner" id="music_chart_heavy" src="assets/images/music_chart_heavy.gif" alt="A hand-drawn notes chart"></a> <figcaption> Metal music as we rock it. Click and choose one song that makes your workout fly</figcaption></figure>
 
-    <p><a href="#" ><img class="frontend_img frontDroppedCorner" src="images/electric_drawing.gif" alt="A hand-drawn piano"></a> Choose from a range of songs that are GUITAR tagged &emsp;&emsp;<a href="#" ><img class="frontend_img droppedCorner" id="music_chart_heavy" src="images/music_chart_heavy.gif" alt="A hand-drawn notes chart"></a> Metal music as we bang it. Click and choose one song that makes your workout fly</p>
-    <div class="twoRows"></div>
+<!--THINKING OF SMTHING SPECIAL=======================================-->
+
     <br>
     <br>
-    <h3>Thinking of something special?</h3>
-    <p>Low Frequency boost filter <a href="#"><img class="frontend_img droppedCorner" src="images/deafCanHear.png" alt="hard of hearing symbol"></a> &emsp;&emsp;<em>One of Us?</em> Feel fancy with great instrumentals for developers. Everybody's invited. <span title="Happy developer, courtesy of True Agency on Unsplash"><a href="#"><img class="frontend_img frontDroppedCorner" src="images/happyDev.png" alt="happy developer image"></a></span></p>
+    
+    <h3 class="centerText"><span class="whiteOnBlack"> Thinking of something special?</span></h3>
 
+    <!--OUTER space===========================================-->
+    <figure class="frontendHover imgBox captionClass"><a title="NASA / James McDivitt [Public domain], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:EdWhiteFirstAmericanSpacewalker.1965.ws.jpg"><img width="128" alt="EdWhiteFirstAmericanSpacewalker.1965.ws" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/EdWhiteFirstAmericanSpacewalker.1965.ws.jpg/128px-EdWhiteFirstAmericanSpacewalker.1965.ws.jpg"></a><figcaption>We can finally enjoy music while <a href="https://en.wikipedia.org/wiki/Extravehicular_activity"> <em style="color: orangered"><strong>EVA </strong></em></a></figcaption></figure> &emsp;&emsp;
+
+  
+    <!--HAPPY DEVELOPER=============================================-->
+       <figure class="frontendHover imgBox captionClass"> <span id="oneofus"> <em >One of Us?</em> Feel fancy with great instrumentals for developers. Everybody's invited.</span> <span title="Happy developer, courtesy of True Agency on Unsplash, modified by cropping"><a href="#"><img class="frontend_img frontDroppedCorner" src="assets/images/happyDev.png" alt="happy developer image"><figcaption><small>A happy dev</small> </figcaption></a></span>
+       </figure>
+ </article>
     <br>
     <br>
 <footer>
-	<div>
-			<small>Music & Technology Ltd., Floor 15, Great Developer Building, GM1 5ET</small>
-	</div>
-	<div>
-		<small><a href="#">Privacy Policy</a></small>
-		<small><a href="#">Terms and Conditions</a></small>
-		<small><a href="#">Contact us</a></small>
-	</div>
+
+		<small  class="whiteOnBlack">Music & Technology Ltd., Floor 15, Great Developer Building, GM1 5ET</small>
+	
+	
+      <a href="content/privacy.html"><small class="whiteOnBlack">Privacy Policy</small></a>
+		<a href="content/terms_conditions.html"><small class="whiteOnBlack">Terms and Conditions</small></a> 
+    <a href="content/contact.html"><small class="whiteOnBlack">Contact us</small></a>
+
+    <br>
 	<br>
-	&copy; Emil Toma 2018
+  <span  class="whiteOnBlack">&copy; Emil Toma 2018</span>
+  <br>
+  <br>
 </footer>
 
 

@@ -1,0 +1,244 @@
+body {
+	background-color: #f8d9f8;
+	background-image: url("musical_instruments_1440x900_real.jpg");
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+#banner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	border-radius: 30%;
+	/*in case of different radii for each corner:*/;
+	/*border-top-right-radius: 30%;
+	border-top-left-radius: 30%;
+	border-bottom-right-radius: 30%;
+	border-bottom-left-radius: 30%;*/
+	max-width: 1300px; /*1300 being minimum screen size for a laptop*/
+	width: auto;
+	height: auto;
+}
+.frontend_img {
+/*frontend_img and second_img are identical classes, separated for later customization*/
+	display: inline-block;
+	max-width: 200px;
+	width: auto;
+	height: auto;
+	border-radius: 20%;
+	border-width: 6px;
+	border-color: purple;
+	opacity: 0.5
+	}
+.frontendHover img:hover{
+	opacity: 1;
+}
+/*.second_img {
+/*second_img and frontend_img are identical classes, separated for later customization*/
+/*possibly, in later development, the second_img will give additional responsiveness to the 
+second image- for instance loading the page on vertical screen will move the chart below
+the first image*/
+	/*display: inline-block;
+	max-width: 200px;
+	width: auto;
+	height: auto;
+	border-radius: 20%;*/
+
+.float_left{
+	float:left;
+	width: 30%;
+}
+.float_right{
+	float: right;
+	width:60%;
+
+}
+.in_line{
+	content: "";
+	display: table;
+}
+#twentyVH{
+	height: 20%;
+}
+#fiftyVH{
+	height: 70%;
+}
+.blueFont{
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.centerText{
+	text-align:center;
+
+}
+
+
+.borderBottomLeft{
+	border-style: solid;
+	margin: 0px;
+	padding: 3px;
+	padding-left: 7px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 3px;
+	border-left-width: 3px;
+	border-color: rgb(109, 109, 219);
+	border-bottom-left-radius: 3% 70%;
+
+}
+.droppedCorner{
+	border-style: solid;
+	border-top-right-radius: 40%;
+	border-width: 6px;
+	border-color: purple;
+	
+}
+.frontDroppedCorner{
+	border-style: solid;
+	border-top-left-radius: 50%;
+	border-width: 6px;
+	border-color: purple;
+}
+.whiteOnBlack{
+	color: white;
+	background-color: black;
+	border-style: solid;
+	margin: 0px;
+	padding: 3px;
+	border-width: 3px;
+	border-color: rgb(10, 10, 10);
+	border-radius: 5% 50%;
+}
+.whiteOnBlackRevs{
+	color: white;
+	background-color: black;
+	border-style: solid;
+	margin: 2px;
+	padding: 3px;
+	border-width: 3px;
+	border-color: rgb(10, 10, 10);
+	border-top-left-radius: 5% 50%;
+	text-align: center;
+
+}
+.anotherBorder{
+	border-style: solid;
+	margin: 0px;
+	padding: 3px;
+	border-width: 3px;
+	border-color: rgb(10, 10, 10);
+	border-bottom-right-radius: 5% 60%;	
+	border-top-left-radius: 5% 60%;
+}
+.leaf{
+	border-style: solid;
+	margin: 4px;
+	padding: 4px;
+	border-width: 3px;
+	border-color: purple;
+	border-bottom-left-radius: 20% 40%;
+	border-top-right-radius: 20% 40%;
+	overflow-wrap: break-word;
+	text-shadow: 0 0 4px paleturquoise;
+	box-shadow: 0 0 8px rgb(240, 143, 240);
+}
+
+.whiteBkg:hover{
+
+	background-color: rgb(240, 216, 253);
+}
+.whiteAlpha {
+	background-color: rgb(240, 216, 253);
+	opacity: 0.4;
+	
+}
+.sticky{
+	position: sticky;
+	top: 0;
+}
+.blocky {
+	display: inline-block;
+	position: unset;
+	
+}
+.footer {
+	position:absolute;
+	left: 0;
+	bottom:0;
+	right:0;
+}
+.menu {
+	position: sticky;
+	top: 0em;
+	display: block;
+	width: 15em;
+	height: 48em;
+	float: left;
+	margin-right: 3em;
+	margin-bottom: 3em;
+	
+	justify-content: space-around;
+}
+.news {
+	display: block;
+	width: 150px;
+	height: auto;
+}
+.borderScatter{
+	border-style: solid;
+	margin: 0px;
+	padding: 10px;
+	border-width: 4px;
+	border-color: blue;
+	border-radius: 5% 50%;
+	width: auto;
+	height: auto;
+	overflow-wrap: break-word;
+	box-shadow: 0 0 30px rgb(122, 182, 250);
+	color: rgb(104, 0, 0);
+	text-shadow: 0 0 12px rgb(247, 237, 181);
+}
+.container {
+display:block;
+width: auto;
+height: auto;
+}
+.imgBox {
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.anyBox{
+	height: auto;
+	width: auto;
+	padding: 5px;
+	float: unset;
+	box-sizing: border-box;
+	background-color: rgb(70, 70, 70);
+	color: bisque;
+	opacity:0.7;
+	border-radius: 10px;
+}
+.newsBox{
+	padding: 3px;
+	background-color: rgb(70, 70, 70);
+	color: bisque;
+border-top-right-radius: 20% 50%;
+border-bottom-left-radius: 20% 50%;
+opacity: 0.8;
+}
+.captionClass figcaption {
+	padding: 3px;
+	background-color: rgb(70, 70, 70);
+	color: bisque;
+	border-radius: 10px;
+	opacity: 0.8;
+	
+}
+#oneofus{
+	padding: 3px;
+	background-color: rgb(70, 70, 70);
+	color: bisque;
+}
